@@ -1,4 +1,5 @@
-Python/* linguist-vendored
 *.rb linguist-language=Java
+*.rb linguist-language=Python
+
 
 
