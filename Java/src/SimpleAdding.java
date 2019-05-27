@@ -8,24 +8,20 @@ Sample Test Cases
 Input:12
 
 Output:78
-
-
 Input:140
-
 Output:9870
-
-
  */
 
 import java.util.Scanner;
 
 public class SimpleAdding {
     public static void main(String[] args) {
+        //Taking in user input
         Scanner userIn = new Scanner(System.in);
         System.out.println("The output is: " + FindSimpleAdding(userIn.nextInt()));
     }
 
-    //    This methods computes the Simple Addition of a given number
+    //This methods computes the Simple Addition of a given number
     public static int FindSimpleAdding(int num) {
         return (num == 0 ? 0 : num + FindSimpleAdding(num - 1));
     }
