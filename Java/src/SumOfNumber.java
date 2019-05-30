@@ -10,7 +10,7 @@ public class SumOfNumber {
 
     public static int ComputeSum(int numbers) {
         int totalSum = 0;
-        for (int counter = 0; counter < numbers; counter--) {
+        for (int counter = 0; counter <= numbers; counter++) {
             totalSum += counter;
         }
         return totalSum;
